@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-family: 'PT Serif', serif;
+  color:#777777;
+}
+.splash {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  background-image: url("https://images.pexels.com/photos/7054785/pexels-photo-7054785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 95vh;
+}
+.page-intro {
+  margin: auto;
+  text-align: center;
+}
+.row {
+  margin: auto;
+}
+.main-title {
+  font-size: 58px;
+  color: white;
+  margin: 0;
+  font-weight: normal;
+}
+
+.main-subtitle {
+  font-size: 22px;
+  font-family: 'PT Serif', serif;
+  color: white;
+  margin: 12px 0 60px 0;
+  font-weight: normal;
+}
+.btn {
+  margin-top: 50px;
+  padding: 18px 24px 18px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #fed136;
+  color: white;
+  transition: $transition;
+}
+
+.btn:hover {
+  background-color: gold;
+}
+.fas {
+  width: 70px;
+  height: 70px;
+  color: #fed136;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 17px;
+  border:solid #fed136 4px;
+  border-radius: 200px;
+  margin: auto;
+}
+.fab {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 19px;
+  color: white;
+  text-align: center;
+  background-color: #222222;
+  border-radius: 50px;
+}
+.card {
+  margin-bottom: 22px;
+  border: none;
+}
+.section-title {
+  margin-top: 120px;
+  margin-bottom: 90px;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 10px;
+  font-size: 40px;
+  }
+h6 {
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+  color: #777777;
+}
+.our-portfolio {
+  padding-top: 5px;
+  padding-bottom: 120px;
+  background-color: #f7f7f7;
+}
+footer {
+  font-size: 15px;
+}
+.footer-list {
+  margin: auto;
+}
